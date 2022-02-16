@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Munito', sans-serif;
+}
+
+.container {
+    border: 2px solid blueviolet;
+    padding: 20px 15px;
+    margin: 20px 10px;
+    background-color: black;
+}
+
+h2 {
+    background-color: blueviolet;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    font-size: 20px;
+}
+
+label {
+    font-size: 17px;
+    color: blueviolet;
+}
+
+input {
+    border: 2px solid blueviolet;
+    border-radius: 0.2rem;
+    outline: none;
+}
+
+.display-block {
+    display: block;
+    margin-bottom: 17px;
+}
+
+.row {
+    margin-right: 3px;
+    margin-left: 4px;
+    margin-bottom: 20px;
+}
+
+.bio {
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 20px;
+    color: white;
+    background-color: blue;
+    border: purple;
+    border-radius: 5px;
+    cursor: pointer;
+
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1);
+    background-color: blueviolet;
+}
